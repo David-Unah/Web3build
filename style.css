@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    border: 1px solid white;
+    padding: 11px 24px; 
+}
+
+#left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    font-family: 'inter', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    /* border: 1px solid blue; */
+}
+
+
+#exchange--wallet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #353535;
+    border: 1px solid #686868;
+    border-radius: 5px;
+
+}
+
+#exchange {
+    padding: 9px 11px;
+    color: white;
+}
+
+#wallet {
+    padding: 9px 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#list-container {
+    display: flex;
+    align-items: center;
+}
+
+
+#nav-list {
+    display: flex;
+    gap: 33px;
+    color: white;
+    list-style: none;
+    color: #F1F1F1;
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 22px;
+    border-left: 1px solid gray;
+    
+}
+
+.dropdown-box {
+    position: relative;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    /* border: 1px solid red; */
+}
+
+.nav-span {
+    display: block;
+    /* border: 1px solid yellow; */
+}
+
+#connect-walletDiv {
+    width: 101px;
+    height: 28px;
+    padding: 7px 11px;
+    border-radius: 22px;
+    background: #FFF;
+    color: #151515;
+    font-family: 'inter', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
